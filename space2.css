@@ -1,10 +1,15 @@
 		body {
 			background-image: url(bg.png);
 			font-family: Tahoma;
+			margin-right: 200px;
+			margin-left: 250px;
+			width: 1020px;
+			height:800px;
 		}
 		
 		#frame {
 			background-color: rgba(255,200,200,0.3);
+			margin-top: -12px;
 		}
 		
 		header nav ul {
@@ -17,7 +22,7 @@
 		}
 		
 		nav li {
-			
+			display: inline;
 		}
 		
 		nav li a {
@@ -38,9 +43,13 @@
 		}
 		
 		header {
+
 		}
 		
 		footer {
 			background-color: rgba(255,255,200,0.3);
 		}
-	
+		.hdr{
+			padding-top: 30px;
+			margin-left: 454px;
+		}

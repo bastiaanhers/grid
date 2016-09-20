@@ -2,10 +2,16 @@
 body {
 	background-image: url("bg.png");
 	font-family: Tahoma;
+	width: 791px;
+	height: 800px;
 }
 
 .frame{
 	background-color: rgba(0,128,0,0.4);
+	margin-left: 90px;
+	margin-right:82px;
+	height: 700px;
+	padding-top: 20px;
 	
 	/* put css-rules in this ccs-block here below */
 	
@@ -14,13 +20,26 @@ body {
 h1{
 	background-color: rgba(0,32,0,0.4);
 	line-height: 40px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+	padding-top:20px;
+	padding-right:140px;
+	padding-bottom:20px;
+	padding-left:20px;
+	width: 440px;
+
 	
 	/* put css-rules in this ccs-block here below */
 	
 }
 
 h2 {
+	margin:-10px 10px 8px 10px;
+	padding:10px 10px 4px 20px;
 	line-height: 30px;
+	border-color:  #990073;
+	border-width: 4px;
+	border-style: solid;
 	
 	/* put css-rules in this ccs-block here below */
 	
@@ -33,3 +52,46 @@ p{
 	/* put css-rules in this ccs-block here below */
 
 }
+.text-1{
+	margin-right: 9px;
+	margin-left: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-2{
+	margin-right: 9px;
+	margin-left: 10px;
+	margin-top: -10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-3{
+	margin-right: 9px;
+	margin-left: 10px;
+	margin-top: -10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.text-4{
+	margin-right: 9px;
+	margin-left: 10px;
+	margin-top: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+.text-5{
+	margin-right: 9px;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
